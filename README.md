@@ -1,4 +1,4 @@
-# v2-carousel
+# vue2-carousel
 
 ## Project setup
 ```
