@@ -1,6 +1,6 @@
 <template>
     <div class="vCarousel-item">
-        <img :src=" require('../assets/images/' + item_data.img)" alt="">
+        <img :src=" require('@/assets/images/' + item_data.img)" alt="">
     </div>
 </template>
 
