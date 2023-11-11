@@ -1,6 +1,7 @@
 <template>
     <div class="vCarousel-item">
-        <img :src=" require('@/assets/images/' + item_data.img)" alt="">
+        <img :src="require('@/assets/img/' + item_data.img)" alt="">        
+       
     </div>
 </template>
 
@@ -12,7 +13,8 @@ export default {
             type: Object,
             default: () => {}
         }      
-    }
+    },
+   
 }
 </script>
 
